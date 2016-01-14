@@ -1,0 +1,283 @@
+Loading projects
+Finishing loading projects
+Starting task: ConversionSetupTask
+[ConversionSetupTask] Info: 
+Conversion tool version: 1.0.319.1383
+Handled exception: The method or operation is not implemented.. Current file 'C:\Program Files (x86)\Mobilize.Net Silverlight bridge\CodeMappings\System.Windows.Markup\ContentPropertyAttribute.map'.
+   at Mobilize.Mappers.Extensibility.Code.AddNamespaceImport.Validate(BaseCodeAction obj)
+   at Mobilize.Mappers.Extensibility.Code.ActionSequence.<Validate>b__f(BaseCodeAction action)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Mobilize.Mappers.Extensibility.Code.ActionSequence.Validate(BaseCodeAction obj)
+   at Mobilize.Mappers.Extensibility.Code.Compilation.CodeMapAdapterCompiler.Validate(CodeMap obj)
+   at Mobilize.Mappers.Extensibility.Code.Compilation.CodeMapPackageCompiler.<Validate>b__0(CodeMap m)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Mobilize.Mappers.Extensibility.Code.Compilation.CodeMapPackageCompiler.Validate(CodeMapPackage obj)
+   at Mobilize.Mappers.Extensibility.Code.Compilation.CodeMappingsCompiler.<Validate>b__3(CodeMapPackage x)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Mobilize.Mappers.Extensibility.Code.Compilation.CodeMappingsCompiler.Validate(MapUnit input)
+   at Artinsoft.Winph2UAP.XamlLoader`1.Load(Func`1 loadFunc, String fileName)
+[ConversionSetupTask] Info: 
+Could not deserialize from XAML file: 'C:\Program Files (x86)\Mobilize.Net Silverlight bridge\CodeMappings\System.Windows.Markup\ContentPropertyAttribute.map'
+Starting task: CallGraphGenerationTask
+Starting task: CallGraphGenerationTask
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\App.xaml.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BindableBase.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanNegationConverter.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanToVisibilityConverter.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Consts.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\CookbookUriMapper.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Features.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\UserImagesDisplayConverter.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\ImageSourceToStringConverter.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\SizeToResolutionConverter.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\StringImageSourceConverter.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\DataModel\RecipeDataSource.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\GroupDetailPage.xaml.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\MainPage.xaml.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Properties\AssemblyInfo.cs
+[CallGraphGenerationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\RecipeDetailPage.xaml.cs
+[CallGraphGenerationTask] Processing C:\Users\karol\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+Starting task: "Flow cut" decoration
+Starting task: "Flow cut" decoration
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\App.xaml.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BindableBase.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanNegationConverter.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanToVisibilityConverter.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Consts.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\CookbookUriMapper.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Features.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\UserImagesDisplayConverter.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\ImageSourceToStringConverter.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\SizeToResolutionConverter.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\StringImageSourceConverter.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\DataModel\RecipeDataSource.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\GroupDetailPage.xaml.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\MainPage.xaml.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Properties\AssemblyInfo.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\RecipeDetailPage.xaml.cs
+["Flow cut" decoration] Processing C:\Users\karol\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\App.g.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\GroupDetailPage.g.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\MainPage.g.cs
+["Flow cut" decoration] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\RecipeDetailPage.g.cs
+Starting task: AsyncAwaitChangerTask
+Starting task: PageIdentificationTask
+Starting task: NavigationMigrationTask
+Starting task: NavigationMigrationTask
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\App.xaml.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BindableBase.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanNegationConverter.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanToVisibilityConverter.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Consts.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\CookbookUriMapper.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Features.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\UserImagesDisplayConverter.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\ImageSourceToStringConverter.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\SizeToResolutionConverter.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\StringImageSourceConverter.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\DataModel\RecipeDataSource.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\GroupDetailPage.xaml.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\MainPage.xaml.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Properties\AssemblyInfo.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\RecipeDetailPage.xaml.cs
+[NavigationMigrationTask] Processing C:\Users\karol\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\App.g.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\GroupDetailPage.g.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\MainPage.g.cs
+[NavigationMigrationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\RecipeDetailPage.g.cs
+Starting task: RemoveUsingStatementsTask
+Starting task: RemoveUsingStatementsTask
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\App.xaml.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BindableBase.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanNegationConverter.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanToVisibilityConverter.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Consts.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\CookbookUriMapper.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Features.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\UserImagesDisplayConverter.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\ImageSourceToStringConverter.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\SizeToResolutionConverter.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\StringImageSourceConverter.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\DataModel\RecipeDataSource.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\GroupDetailPage.xaml.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\MainPage.xaml.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Properties\AssemblyInfo.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\RecipeDetailPage.xaml.cs
+[RemoveUsingStatementsTask] Processing C:\Users\karol\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\App.g.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\GroupDetailPage.g.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\MainPage.g.cs
+[RemoveUsingStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\RecipeDetailPage.g.cs
+Starting task: GroupInitializationStatementsTask
+Starting task: GroupInitializationStatementsTask
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\App.xaml.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BindableBase.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanNegationConverter.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanToVisibilityConverter.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Consts.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\CookbookUriMapper.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Features.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\UserImagesDisplayConverter.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\ImageSourceToStringConverter.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\SizeToResolutionConverter.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\StringImageSourceConverter.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\DataModel\RecipeDataSource.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\GroupDetailPage.xaml.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\MainPage.xaml.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Properties\AssemblyInfo.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\RecipeDetailPage.xaml.cs
+[GroupInitializationStatementsTask] Processing C:\Users\karol\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\App.g.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\GroupDetailPage.g.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\MainPage.g.cs
+[GroupInitializationStatementsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\RecipeDetailPage.g.cs
+Starting task: CompletedActionPatternTask
+Starting task: CompletedActionPatternTask
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\App.xaml.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BindableBase.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanNegationConverter.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanToVisibilityConverter.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Consts.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\CookbookUriMapper.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Features.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\UserImagesDisplayConverter.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\ImageSourceToStringConverter.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\SizeToResolutionConverter.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\StringImageSourceConverter.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\DataModel\RecipeDataSource.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\GroupDetailPage.xaml.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\MainPage.xaml.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Properties\AssemblyInfo.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\RecipeDetailPage.xaml.cs
+[CompletedActionPatternTask] Processing C:\Users\karol\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\App.g.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\GroupDetailPage.g.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\MainPage.g.cs
+[CompletedActionPatternTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\RecipeDetailPage.g.cs
+Starting task: DynamicEventHandlerDecoratorTask
+Starting task: DynamicEventHandlerDecoratorTask
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\App.xaml.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BindableBase.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanNegationConverter.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanToVisibilityConverter.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Consts.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\CookbookUriMapper.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Features.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\UserImagesDisplayConverter.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\ImageSourceToStringConverter.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\SizeToResolutionConverter.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\StringImageSourceConverter.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\DataModel\RecipeDataSource.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\GroupDetailPage.xaml.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\MainPage.xaml.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Properties\AssemblyInfo.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\RecipeDetailPage.xaml.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Users\karol\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\App.g.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\GroupDetailPage.g.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\MainPage.g.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\RecipeDetailPage.g.cs
+Starting task: PhoneMappingsTask
+Starting task: PhoneMappingsTask
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\App.xaml.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BindableBase.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanNegationConverter.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanToVisibilityConverter.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Consts.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\CookbookUriMapper.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Features.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\UserImagesDisplayConverter.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\ImageSourceToStringConverter.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\SizeToResolutionConverter.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\StringImageSourceConverter.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\DataModel\RecipeDataSource.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\GroupDetailPage.xaml.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\MainPage.xaml.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Properties\AssemblyInfo.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\RecipeDetailPage.xaml.cs
+[PhoneMappingsTask] Processing C:\Users\karol\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\App.g.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\GroupDetailPage.g.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\MainPage.g.cs
+[PhoneMappingsTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\RecipeDetailPage.g.cs
+Starting task: XamlMapperTask
+[XamlMapperTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\CustomStyles.xaml
+[XamlMapperTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\GroupDetailPage.xaml
+[XamlMapperTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\MainPage.xaml
+[XamlMapperTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\RecipeDetailPage.xaml
+Starting task: NamespaceReferenceTransformationTask
+Starting task: NamespaceReferenceTransformationTask
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\App.xaml.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BindableBase.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanNegationConverter.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanToVisibilityConverter.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Consts.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\CookbookUriMapper.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Features.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\UserImagesDisplayConverter.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\ImageSourceToStringConverter.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\SizeToResolutionConverter.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\StringImageSourceConverter.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\DataModel\RecipeDataSource.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\GroupDetailPage.xaml.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\MainPage.xaml.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Properties\AssemblyInfo.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\RecipeDetailPage.xaml.cs
+[NamespaceReferenceTransformationTask] Processing C:\Users\karol\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\App.g.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\GroupDetailPage.g.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\MainPage.g.cs
+[NamespaceReferenceTransformationTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\RecipeDetailPage.g.cs
+Starting task: AppXamlCorrectionTask
+Starting task: AppXamlCorrectionTask
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\App.xaml.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BindableBase.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanNegationConverter.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanToVisibilityConverter.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Consts.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\CookbookUriMapper.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Features.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\UserImagesDisplayConverter.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\ImageSourceToStringConverter.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\SizeToResolutionConverter.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\StringImageSourceConverter.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\DataModel\RecipeDataSource.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\GroupDetailPage.xaml.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\MainPage.xaml.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Properties\AssemblyInfo.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\RecipeDetailPage.xaml.cs
+[AppXamlCorrectionTask] Processing C:\Users\karol\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\App.g.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\GroupDetailPage.g.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\MainPage.g.cs
+[AppXamlCorrectionTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\obj\Debug\RecipeDetailPage.g.cs
+Starting task: UniversalManifestGenerationTask
+Starting task: AddSplashScreenImageWhenMissingTask
+Starting task: ResourceFilesRelocatorTask
+Starting task: MigratorPrettyPrintingTask
+Starting task: MigratorPrettyPrintingTask
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\App.xaml.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BindableBase.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanNegationConverter.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\BooleanToVisibilityConverter.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Consts.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\CookbookUriMapper.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Features.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\UserImagesDisplayConverter.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\ImageSourceToStringConverter.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\SizeToResolutionConverter.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\StringImageSourceConverter.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\DataModel\RecipeDataSource.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\GroupDetailPage.xaml.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\MainPage.xaml.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Properties\AssemblyInfo.cs
+[MigratorPrettyPrintingTask] Processing C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\RecipeDetailPage.xaml.cs
+Starting task: UAPSolutionGenerationTask
+Starting task: CleanupTask
+Starting task: ConversionReportGeneratorTask

@@ -1,0 +1,243 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CustomTriggers"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Triggers="using:CustomTriggers.Triggers"
+    x:Name="mainPage"
+    x:Class="CustomTriggers.MainPage"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <Style
+            TargetType="TextBlock">
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+    </Page.Resources>
+<Grid
+        Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="1*" />
+            <RowDefinition
+                Height="1*" />
+            <RowDefinition
+                Height="1*" />
+            <RowDefinition
+                Height="1*" />
+            <RowDefinition
+                Height="1*" />
+        </Grid.RowDefinitions>
+        <VisualStateManager.VisualStateGroups>
+
+            <VisualStateGroup x:Name="DeviceFamilyStatesGroup">
+                <VisualState x:Name="DesktopState">
+                    <VisualState.Setters>
+
+                        <Setter
+                            Target="stack1.Background"
+                            Value="Green" />
+                        <Setter
+                            Target="DeviceFamilyTB.Text"
+                            Value="Desktop" />
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <Triggers:DeviceFamilyTrigger DeviceFamily="Desktop"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:Name="MobileState">
+                    <VisualState.Setters>
+                        <Setter
+                            Target="stack1.Background"
+                            Value="Red" />
+                        <Setter
+                            Target="DeviceFamilyTB.Text"
+                            Value="Mobile" />                        
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <Triggers:DeviceFamilyTrigger
+                            DeviceFamily="Mobile" />
+                    </VisualState.StateTriggers>
+                </VisualState>
+            </VisualStateGroup>
+            <VisualStateGroup x:Name="OrientationStatesGroup">
+                <VisualState x:Name="LandscapeState">
+                    <VisualState.Setters>
+
+                        <Setter
+                            Target="stack2.Background"
+                            Value="Green" />
+                        <Setter
+                            Target="OrientationTB.Text"
+                            Value="Landscape" />
+
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <Triggers:OrientationTrigger
+                            Orientation="Landscape" />
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:Name="PortraitState">
+                    
+                    <VisualState.Setters>
+
+                        <Setter
+                            Target="stack2.Background"
+                            Value="Red" />
+                        <Setter
+                            Target="OrientationTB.Text"
+                            Value="Portrait" />
+
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+
+                        <Triggers:OrientationTrigger
+                            Orientation="Portrait" />
+                    </VisualState.StateTriggers>
+                </VisualState>
+            </VisualStateGroup>
+            <VisualStateGroup x:Name="IsTypePresentStatesGroup">
+                <VisualState  x:Name="TypePresentState">
+                    <VisualState.Setters>
+
+                        <Setter
+                            Target="stack3.Background"
+                            Value="Green" />
+                        <Setter
+                            Target="TypePresentTB.(TextBlock.Text)"
+                            Value="Type CameraShowUI is present" />
+
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <Triggers:ApiInformationTrigger
+                            TypeName="Windows.Media.Capture.CameraOptionsUI"
+                            RequireAll="True" />
+                    </VisualState.StateTriggers>
+                </VisualState>               
+            </VisualStateGroup>
+            <VisualStateGroup x:Name="UserInteractionTypeStatesGroup">
+                <VisualState x:Name="MouseInteractionState">
+                    <VisualState.Setters>
+
+                        <Setter
+                            Target="stack4.Background"
+                            Value="Green" />
+                        <Setter
+                            Target="InteractionTB.(TextBlock.Text)"
+                            Value="Mouse" />
+
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <Triggers:InteractionModeTrigger
+                            Mode="Mouse" />
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:Name="TouchInteractionState">
+                    <VisualState.Setters>
+
+                        <Setter
+                            Target="stack4.Background"
+                            Value="Red" />
+                        <Setter
+                            Target="InteractionTB.(TextBlock.Text)"
+                            Value="Touch" />
+
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <Triggers:InteractionModeTrigger
+                            Mode="Touch" />
+                    </VisualState.StateTriggers>
+                </VisualState>
+            </VisualStateGroup>
+            <VisualStateGroup x:Name="NetworkAvailableStatesGroup">
+                <VisualState x:Name="NetworkAvailableState">
+                    <VisualState.Setters>
+
+                        <Setter
+                            Target="stack5.Background"
+                            Value="Green" />
+                        <Setter
+                            Target="NetworkTB.(TextBlock.Text)"
+                            Value="Network connected" />
+
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <Triggers:NetworkAvailableStateTrigger
+                            ConnectionState="Connected" />
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:Name="NetworkNotAvailableState">
+                    <VisualState.Setters>
+
+                        <Setter
+                            Target="stack5.Background"
+                            Value="Red" />
+                        <Setter
+                            Target="NetworkTB.(TextBlock.Text)"
+                            Value="Network not connected" />
+
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <Triggers:NetworkAvailableStateTrigger
+                            ConnectionState="Disconnected" />
+                    </VisualState.StateTriggers>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <StackPanel x:Name="stack1"
+            BorderBrush="Black"
+            BorderThickness="1">
+            <TextBlock HorizontalAlignment="Center" Text="Device Family Trigger"/>
+            <TextBlock x:Name="DeviceFamilyTB" Text="Default"/>
+        </StackPanel>
+        <StackPanel x:Name="stack2"
+            BorderBrush="Black"
+            BorderThickness="1"
+            Grid.Row="1">
+            <TextBlock
+                HorizontalAlignment="Center"
+                Text="Orientation Trigger" />
+
+            <TextBlock
+                x:Name="OrientationTB"
+                Text="Default" />
+        </StackPanel>
+        <StackPanel x:Name="stack3" 
+                    Background="Red"
+            BorderThickness="1" BorderBrush="Black"
+            Grid.Row="2">
+            <TextBlock
+                HorizontalAlignment="Center"
+                Text="Is Type Present Trigger" />
+
+            <TextBlock
+                x:Name="TypePresentTB"
+                Text="Type CameraShowUI is NOT present" />
+        </StackPanel>
+        <StackPanel x:Name="stack4"
+            BorderBrush="Black"
+            BorderThickness="1"
+            Grid.Row="3">
+            <TextBlock
+                HorizontalAlignment="Center"
+                Text="User Interaction Trigger" />
+
+            <TextBlock
+                x:Name="InteractionTB"
+                Text="Default" />
+        </StackPanel>
+        <StackPanel x:Name="stack5"
+            BorderThickness="1"
+            BorderBrush="Black"
+            Grid.Row="4">
+            <TextBlock
+                HorizontalAlignment="Center"
+                Text="Network Connectivity Trigger" />
+
+            <TextBlock
+                x:Name="NetworkTB"
+                Text="Default" />
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:m1="http://schemas.microsoft.com/appx/2010/manifest" xmlns:phone="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:wincap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities" xmlns:t="http://schemas.microsoft.com/appx/manifest/types" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  <Identity Name="ContosoCookbook" Publisher="CN=Microsoft" Version="1.0.0.0" />
+  <phone:PhoneIdentity PhoneProductId="1adca95e-2a98-4af3-bc0d-06ef673ac3fb" PhonePublisherId="e7608d0d-fc11-402f-9418-ae7ff9efacde" />
+  <Properties>
+    <DisplayName>Contoso Cookbook</DisplayName>
+    <PublisherDisplayName>Microsoft</PublisherDisplayName>
+    <Logo>ApplicationIcon_resized_50x50.png</Logo>
+  </Properties>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10563.0" MaxVersionTested="10.0.10563.0" />
+  </Dependencies>
+  <Capabilities>
+    <Capability Name="internetClientServer" />
+    <uap:Capability Name="musicLibrary" />
+    <uap:Capability Name="picturesLibrary" />
+    <DeviceCapability Name="webcam" />
+  </Capabilities>
+  <Applications>
+    <Application Id="ContosoCookbook" Executable="$targetnametoken$.exe" EntryPoint="ContosoCookbook_WP8">
+      <uap:VisualElements DisplayName="Contoso Cookbook" Description="Contoso Cookbook sample application" BackgroundColor="#464646" Square150x150Logo="ApplicationIcon_resized_150x150.png" Square44x44Logo="ApplicationIcon_resized_44x44.png">
+        <uap:SplashScreen Image="SplashScreenImage.jpg" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+</Package>

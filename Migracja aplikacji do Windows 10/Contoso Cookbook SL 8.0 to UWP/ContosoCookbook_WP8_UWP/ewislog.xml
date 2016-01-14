@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EwiData>
+  <UpgradeLog ProjectName="ContosoCookbook_WP8.csproj">
+    <Settings />
+    <File OldPath="C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\App.xaml.cs" NewPath="">
+      <Section Name="Mappings">
+        <Issue Type="Runtime" Number="1101" Quantity="1">Microsoft.Phone.Shell.LaunchingEventArgs was not upgraded</Issue>
+      </Section>
+    </File>
+    <File OldPath="C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\Features.cs" NewPath="">
+      <Section Name="Mappings">
+        <Issue Type="Runtime" Number="1113" Quantity="2">The tool does not have information on the 'Microsoft.Phone.Scheduler.ScheduledAction' library class. Its 'Name' member was referenced.</Issue>
+        <Issue Type="Runtime" Number="1113" Quantity="2">The tool does not have information on the 'Microsoft.Phone.Scheduler.Reminder' library class. Its 'Title' member was referenced.</Issue>
+        <Issue Type="Runtime" Number="1113" Quantity="2">The tool does not have information on the 'Microsoft.Phone.Scheduler.Reminder' library class. Its 'Content' member was referenced.</Issue>
+        <Issue Type="Runtime" Number="1113" Quantity="5">The tool does not have information on the 'Microsoft.Phone.Scheduler.Reminder' library class. Its 'BeginTime' member was referenced.</Issue>
+        <Issue Type="Runtime" Number="1113" Quantity="2">The tool does not have information on the 'Microsoft.Phone.Scheduler.Reminder' library class. Its 'ExpirationTime' member was referenced.</Issue>
+        <Issue Type="Runtime" Number="1113" Quantity="2">The tool does not have information on the 'Microsoft.Phone.Scheduler.Reminder' library class. Its 'RecurrenceType' member was referenced.</Issue>
+        <Issue Type="Runtime" Number="1113" Quantity="2">The tool does not have information on the 'Microsoft.Phone.Scheduler.Reminder' library class. Its 'NavigationUri' member was referenced.</Issue>
+        <Issue Type="Runtime" Number="1113" Quantity="1">The tool does not have information on the 'Microsoft.Phone.Scheduler.ScheduledAction' library class. Its 'IsScheduled' member was referenced.</Issue>
+      </Section>
+    </File>
+    <File OldPath="C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\UserImagesDisplayConverter.cs" NewPath="">
+      <Section Name="Mappings">
+        <Issue Type="Runtime" Number="1113" Quantity="1">The tool does not have information on the 'System.Collections.ObjectModel.ObservableCollection' library class. Its 'Count' member was referenced.</Issue>
+      </Section>
+    </File>
+    <File OldPath="C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\ImageSourceToStringConverter.cs" NewPath="">
+      <Section Name="Mappings">
+        <Issue Type="Runtime" Number="1113" Quantity="2">The tool does not have information on the 'System.Object' library class. Its 'ToString' member was referenced.</Issue>
+      </Section>
+    </File>
+    <File OldPath="C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\SizeToResolutionConverter.cs" NewPath="">
+      <Section Name="Mappings">
+        <Issue Type="Runtime" Number="1113" Quantity="4">The tool does not have information on the 'System.Object' library class. Its 'ToString' member was referenced.</Issue>
+      </Section>
+    </File>
+    <File OldPath="C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\Common\StringImageSourceConverter.cs" NewPath="">
+      <Section Name="Mappings">
+        <Issue Type="Runtime" Number="1113" Quantity="2">The tool does not have information on the 'System.Object' library class. Its 'ToString' member was referenced.</Issue>
+      </Section>
+    </File>
+    <File OldPath="C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\DataModel\RecipeDataSource.cs" NewPath="">
+      <Section Name="Mappings">
+        <Issue Type="Runtime" Number="1113" Quantity="1">The tool does not have information on the 'System.Collections.ObjectModel.ObservableCollection' library class. Its 'Count' member was referenced.</Issue>
+        <Issue Type="Runtime" Number="1113" Quantity="2">The tool does not have information on the 'System.Collections.ObjectModel.ObservableCollection' library class. Its 'SelectMany' member was referenced.</Issue>
+        <Issue Type="Runtime" Number="1113" Quantity="4">The tool does not have information on the 'System.Collections.ObjectModel.ObservableCollection' library class. Its 'Add' member was referenced.</Issue>
+      </Section>
+    </File>
+    <File OldPath="C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\MainPage.xaml.cs" NewPath="">
+      <Section Name="Mappings">
+        <Issue Type="Runtime" Number="1101" Quantity="1">Microsoft.Phone.Shell.SystemTray.SetProgressIndicator was not upgraded</Issue>
+      </Section>
+    </File>
+    <File OldPath="C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\RecipeDetailPage.xaml.cs" NewPath="">
+      <Section Name="Mappings">
+        <Issue Type="Runtime" Number="1113" Quantity="2">The tool does not have information on the 'System.Collections.ObjectModel.ObservableCollection' library class. Its 'Add' member was referenced.</Issue>
+        <Issue Type="Runtime" Number="1113" Quantity="1">The tool does not have information on the 'System.Collections.ObjectModel.ObservableCollection' library class. Its 'Count' member was referenced.</Issue>
+      </Section>
+    </File>
+    <File OldPath="C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\GroupDetailPage.xaml" NewPath="">
+      <Section Name="Mappings">
+        <Issue Type="Runtime" Number="1101" Quantity="2">PhoneApplicationPage.SupportedOrientations was not upgraded</Issue>
+        <Issue Type="Runtime" Number="1101" Quantity="1">PhoneApplicationPage.Orientation was not upgraded</Issue>
+        <Issue Type="Runtime" Number="1101" Quantity="1">PhoneApplicationPage.IsVisible was not upgraded</Issue>
+      </Section>
+    </File>
+    <File OldPath="C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\MainPage.xaml" NewPath="">
+      <Section Name="Mappings">
+        <Issue Type="Runtime" Number="1101" Quantity="2">PhoneApplicationPage.SupportedOrientations was not upgraded</Issue>
+        <Issue Type="Runtime" Number="1101" Quantity="1">PhoneApplicationPage.Orientation was not upgraded</Issue>
+        <Issue Type="Runtime" Number="1101" Quantity="1">PhoneApplicationPage.IsVisible was not upgraded</Issue>
+      </Section>
+    </File>
+    <File OldPath="C:\Matsy\MVA\Migracja aplikacji do Windows 10\Contoso Cookbook SL 8.0 to UWP\ContosoCookbook_WP8\RecipeDetailPage.xaml" NewPath="">
+      <Section Name="Mappings">
+        <Issue Type="Runtime" Number="1101" Quantity="2">PhoneApplicationPage.SupportedOrientations was not upgraded</Issue>
+        <Issue Type="Runtime" Number="1101" Quantity="1">PhoneApplicationPage.Orientation was not upgraded</Issue>
+        <Issue Type="Runtime" Number="1101" Quantity="1">PhoneApplicationPage.IsVisible was not upgraded</Issue>
+      </Section>
+    </File>
+  </UpgradeLog>
+</EwiData>
