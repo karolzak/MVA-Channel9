@@ -27,13 +27,10 @@
   </Resources>
 
   <Applications>
-    <Application 
-      Id="App"
-      
-      StartPage="http://contosotravel.azurewebsites.net/">
-
+    <Application Id="App" StartPage="http://codepen.io/karolzak/pen/qNBzQa">
       <uap:ApplicationContentUriRules>
-        <uap:Rule Match="http://contosotravel.azurewebsites.net/" Type="include" WindowsRuntimeAccess="all"/>
+        <uap:Rule Match="http://codepen.io/karolzak/pen/qNBzQa" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="http://*.codepen.io/" Type="include" WindowsRuntimeAccess="all" />
       </uap:ApplicationContentUriRules>
 
       <uap:VisualElements
